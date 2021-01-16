@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "18792599319",
+    "firebase_url": "https://agzone-c7d08-default-rtdb.firebaseio.com",
+    "project_id": "agzone-c7d08",
+    "storage_bucket": "agzone-c7d08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:18792599319:android:d7d067dfbb329cfae7b152",
+        "android_client_info": {
+          "package_name": "com.example.food_delivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "18792599319-3b9bu532um8d0eqdn83vfud52uokipgn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDgDm4fL5Yc7ThONJITxt2GFi68HRfW48"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "18792599319-3b9bu532um8d0eqdn83vfud52uokipgn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
