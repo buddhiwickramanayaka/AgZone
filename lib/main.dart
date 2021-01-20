@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:food_delivery/Application/main.dart';
+import 'package:food_delivery/Contact.dart';
 import 'package:food_delivery/Plant/resthome.dart';
 import 'package:food_delivery/Plant/rlogin.dart';
 import 'package:food_delivery/Plant/rsignup.dart';
@@ -83,11 +84,11 @@ class _HomeState extends State<Home> {
                       ),
                     ),
                     Text(
-                      'Name: user',
+                      'Name: Naveen Bandara',
                       style: TextStyle(fontSize: 22, color: Colors.black87),
                     ),
                     Text(
-                      'Email: user@gmail.com',
+                      'Email: Naveenbandara@gmail.com',
                       style: TextStyle(color: Colors.black87),
                     )
                   ],
@@ -97,7 +98,7 @@ class _HomeState extends State<Home> {
             ListTile(
               leading: Icon(Icons.settings),
               title: Text(
-                'Setting',
+                'Settings',
                 style: TextStyle(fontSize: 18),
               ),
               onTap: null,
@@ -115,6 +116,36 @@ class _HomeState extends State<Home> {
                     builder: (context) => Application(),
                   ),
                 );
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.contact_page),
+              title: Text(
+                'Contact Us',
+                style: TextStyle(fontSize: 18),
+              ),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => ContactUs(),
+                  ),
+                );
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.info),
+              title: Text(
+                'About Us',
+                style: TextStyle(fontSize: 18),
+              ),
+              onTap: () {
+                /*Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => ContactUs(),
+                  ),
+                );*/
               },
             ),
             ListTile(
@@ -207,11 +238,11 @@ class FirstHalf extends StatelessWidget {
         children: <Widget>[
           CustomAppBar(),
           //you could also use the spacer widget to give uneven distances, i just decided to go with a sizebox
-          SizedBox(height: 30),
+          SizedBox(height: 1),
           title(),
-          SizedBox(height: 30),
+          SizedBox(height: 10),
           searchBar(),
-          SizedBox(height: 45),
+          SizedBox(height: 30),
           categories(),
         ],
       ),

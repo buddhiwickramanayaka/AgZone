@@ -31,6 +31,8 @@ dependencies:
   firebase_database: 
   geolocator: 
   google_maps_flutter:
+  contactus: ^1.1.7  
+  url_launcher: ^5.2.5
   
   
 

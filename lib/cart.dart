@@ -61,7 +61,7 @@ class BottomBar extends StatelessWidget {
               child: Row(
                 children: <Widget>[
                   Text(
-                    "15-25 min",
+                    "1-2 Days",
                     style: TextStyle(
                       fontWeight: FontWeight.w800,
                       fontSize: 14,
