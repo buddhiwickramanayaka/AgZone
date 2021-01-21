@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery/Application/controller.dart';
-import 'package:food_delivery/Application/model/form.dart';
-import 'package:food_delivery/main.dart';
+import 'package:Agzone/Application/controller.dart';
+import 'package:Agzone/Application/model/form.dart';
+import 'package:Agzone/main.dart';
 
 class Application extends StatelessWidget {
   // This widget is the root of your application.

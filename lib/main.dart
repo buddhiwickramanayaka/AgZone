@@ -1,12 +1,12 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:food_delivery/Application/main.dart';
-import 'package:food_delivery/Contact.dart';
-import 'package:food_delivery/Plant/resthome.dart';
-import 'package:food_delivery/Plant/rlogin.dart';
-import 'package:food_delivery/Plant/rsignup.dart';
+import 'package:Agzone/Application/main.dart';
+import 'package:Agzone/Contact.dart';
+import 'package:Agzone/Plant/resthome.dart';
+import 'package:Agzone/Plant/rlogin.dart';
+import 'package:Agzone/Plant/rsignup.dart';
 
-import 'package:food_delivery/firstpage.dart';
+import 'package:Agzone/firstpage.dart';
 import './loginpage/sigin_page.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import './bloc/cartListBloc.dart';

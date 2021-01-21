@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery/const/themeColor.dart';
+import 'package:Agzone/const/themeColor.dart';
 import '../loginpage/sigin_page.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -31,7 +31,7 @@ class _ProfilePageState extends State<ProfilePage> {
                   width: 150.0,
                   height: 150.0,
                   decoration: BoxDecoration(
-                    color: Themes.color,
+                      color: Themes.color,
                       image: DecorationImage(
                           image: NetworkImage(
                               '${this.widget.detailsUser.photoUrl}'),

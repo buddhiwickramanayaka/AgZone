@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:food_delivery/const/themeColor.dart';
+import 'package:Agzone/const/themeColor.dart';
 
 class FirstPage extends StatelessWidget {
   @override

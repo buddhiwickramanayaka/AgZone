@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery/const/themeColor.dart';
+import 'package:Agzone/const/themeColor.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:geolocator/geolocator.dart';
 
@@ -20,7 +20,7 @@ class _LocationState extends State<Location> {
     Geolocator().getCurrentPosition().then((currloc) {
       setState(() {
         currentLocation = currloc;
-        
+
         mapToggle = true;
       });
     });
@@ -36,7 +36,6 @@ class _LocationState extends State<Location> {
       body: Center(
           child: Container(
         height: MediaQuery.of(context).size.height,
-        
         width: MediaQuery.of(context).size.width,
         child: mapToggle
             ? GoogleMap(

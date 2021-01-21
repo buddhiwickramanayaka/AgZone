@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:food_delivery/const/themeColor.dart';
+import 'package:Agzone/const/themeColor.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import './profile.dart';
 import 'package:google_sign_in/google_sign_in.dart';

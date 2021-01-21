@@ -1,8 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:food_delivery/const/themeColor.dart';
-import 'package:food_delivery/location/map.dart';
+import 'package:Agzone/const/themeColor.dart';
+import 'package:Agzone/location/map.dart';
 import '../widgets/profile_tile.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 

@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:food_delivery/const/themeColor.dart';
-import 'package:food_delivery/location/map.dart';
+import 'package:Agzone/const/themeColor.dart';
+import 'package:Agzone/location/map.dart';
 import './debit_card.dart';
 
 class PaymentPage extends StatelessWidget {
@@ -21,7 +21,7 @@ class PaymentPage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: <Widget>[
                   Padding(
-                    padding: const EdgeInsets.fromLTRB(1,10,10,15),
+                    padding: const EdgeInsets.fromLTRB(1, 10, 10, 15),
                     child: GestureDetector(
                       child: Icon(
                         CupertinoIcons.back,
@@ -69,7 +69,7 @@ class PaymentPage extends StatelessWidget {
                     ],
                   ),
                   onPressed: () {
-                     Navigator.of(context).pushReplacement(MaterialPageRoute(
+                    Navigator.of(context).pushReplacement(MaterialPageRoute(
                         builder: (BuildContext context) => Location()));
                   },
                 ),
@@ -102,7 +102,7 @@ class PaymentPage extends StatelessWidget {
                     ],
                   ),
                   onPressed: () {
-                                        Navigator.of(context).pushReplacement(MaterialPageRoute(
+                    Navigator.of(context).pushReplacement(MaterialPageRoute(
                         builder: (BuildContext context) => CreditCardPage()));
                   },
                 ),

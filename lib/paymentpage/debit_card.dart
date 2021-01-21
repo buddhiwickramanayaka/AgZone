@@ -2,9 +2,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_masked_text/flutter_masked_text.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:food_delivery/const/themeColor.dart';
-import 'package:food_delivery/paymentpage/payment_success.dart';
-import 'package:food_delivery/widgets/profile_tile.dart';
+import 'package:Agzone/const/themeColor.dart';
+import 'package:Agzone/paymentpage/payment_success.dart';
+import 'package:Agzone/widgets/profile_tile.dart';
 
 class CreditCardPage extends StatelessWidget {
   BuildContext _context;
@@ -217,8 +217,8 @@ class CreditCardPage extends StatelessWidget {
         ),
         child: FloatingActionButton.extended(
           onPressed: () {
-             Navigator.of(_context).pushReplacement(MaterialPageRoute(
-                        builder: (BuildContext context) => PaymentSuccessPage()));
+            Navigator.of(_context).pushReplacement(MaterialPageRoute(
+                builder: (BuildContext context) => PaymentSuccessPage()));
           },
           backgroundColor: Themes.color,
           icon: Icon(
