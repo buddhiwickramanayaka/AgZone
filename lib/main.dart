@@ -1,3 +1,5 @@
+import 'package:Agzone/Aboutus.dart';
+import 'package:Agzone/Settings/main.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:Agzone/Application/main.dart';
@@ -96,13 +98,19 @@ class _HomeState extends State<Home> {
               ),
             ),
             ListTile(
-              leading: Icon(Icons.settings),
-              title: Text(
-                'Settings',
-                style: TextStyle(fontSize: 18),
-              ),
-              onTap: null,
-            ),
+                leading: Icon(Icons.settings),
+                title: Text(
+                  'Settings',
+                  style: TextStyle(fontSize: 18),
+                ),
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => Setting(),
+                    ),
+                  );
+                }),
             ListTile(
               leading: Icon(Icons.book),
               title: Text(
@@ -140,12 +148,12 @@ class _HomeState extends State<Home> {
                 style: TextStyle(fontSize: 18),
               ),
               onTap: () {
-                /*Navigator.push(
+                Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => ContactUs(),
+                    builder: (context) => Aboutus(),
                   ),
-                );*/
+                );
               },
             ),
             ListTile(

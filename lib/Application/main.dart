@@ -76,6 +76,11 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.green[100],
+      appBar: AppBar(
+        backgroundColor: Colors.green[300],
+        title: Text("Appliction for Fertilizer"),
+      ),
       key: _scaffoldKey,
       body: Center(
         child: Container(
