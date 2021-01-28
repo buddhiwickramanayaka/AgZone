@@ -51,7 +51,10 @@ class BottomBar extends StatelessWidget {
             height: 1,
             color: Colors.grey[700],
           ),
-          persons(),
+          //persons(),
+          SizedBox(
+            height: 30,
+          ),
           GestureDetector(
             child: Container(
               margin: EdgeInsets.only(right: 25),
@@ -61,7 +64,7 @@ class BottomBar extends StatelessWidget {
               child: Row(
                 children: <Widget>[
                   Text(
-                    "1-2 Days",
+                    "2-4 Days",
                     style: TextStyle(
                       fontWeight: FontWeight.w800,
                       fontSize: 14,
@@ -89,7 +92,7 @@ class BottomBar extends StatelessWidget {
   }
 }
 
-Container persons() {
+/*Container persons() {
   return Container(
     margin: EdgeInsets.only(right: 10),
     padding: EdgeInsets.symmetric(vertical: 30),
@@ -106,7 +109,7 @@ Container persons() {
     ),
   );
 }
-
+*/
 Container totalAmount(List<FoodItem> foodItems) {
   return Container(
     margin: EdgeInsets.only(right: 10),

@@ -1,19 +1,19 @@
 class FeedbackForm {
   String _email;
-  String _mobileNo;
+  String _mobileno;
   String _cropType;
-  String _landarea;
+  String _landArea;
   String _discription;
 
   FeedbackForm(
     this._email,
-    this._mobileNo,
+    this._mobileno,
     this._cropType,
-    this._landarea,
+    this._landArea,
     this._discription,
   );
 
   // Method to make GET parameters.
   String toParams() =>
-      "?email=$_email&mobileNo=$_mobileNo&cropType=$_cropType&landarea=$_landarea&discription=$_discription";
+      "?email=$_email&mobileno=$_mobileno&cropType=$_cropType&landArea=$_landArea&discription=$_discription";
 }

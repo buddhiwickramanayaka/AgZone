@@ -115,7 +115,7 @@ class _ContactUsState extends State<ContactUs> {
                     style: TextStyle(fontSize: 20)),
                 onPressed: () {
                   setState(() {
-                    _launched = _makePhoneCall('tel:0769667360');
+                    _launched = _makePhoneCall('tel:0812388331');
                   });
                 },
               ),
@@ -130,7 +130,7 @@ class _ContactUsState extends State<ContactUs> {
                   //side: BorderSide(color: Colors.red)
                 ),
                 color: Colors.green[300],
-                child: const Text('More Details with Vedios',
+                child: const Text('More Details with Videos',
                     style: TextStyle(fontSize: 20)),
                 onPressed: () {
                   setState(() {

@@ -105,7 +105,7 @@ class PaymentSuccessPageState extends State<PaymentSuccessPage> {
                 ),
                 ListTile(
                   title: Text("Amount"),
-                  subtitle: Text("\Rs.40"),
+                  subtitle: Text("\Rs.140"),
                   trailing: Text("Completed"),
                 ),
                 Card(
@@ -118,7 +118,7 @@ class PaymentSuccessPageState extends State<PaymentSuccessPage> {
                       color: Themes.color,
                     ),
                     title: Text("Credit/Debit Card"),
-                    subtitle: Text("PNB Card ending ***6"),
+                    subtitle: Text("Card ending ****"),
                   ),
                 ),
                 SizedBox(height: 10),

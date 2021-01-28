@@ -32,9 +32,9 @@ class _MyHomePageState extends State<MyHomePage> {
   final _scaffoldKey = GlobalKey<ScaffoldState>();
 
   // TextField Controllers
-  TextEditingController nameController = TextEditingController();
+
   TextEditingController emailController = TextEditingController();
-  TextEditingController mobileNoController = TextEditingController();
+  TextEditingController mobilenoController = TextEditingController();
   TextEditingController cropTypeController = TextEditingController();
   TextEditingController landAreaController = TextEditingController();
   TextEditingController discriptionController = TextEditingController();
@@ -43,7 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
     if (_formKey.currentState.validate()) {
       FeedbackForm feedbackForm = FeedbackForm(
         emailController.text,
-        mobileNoController.text,
+        mobilenoController.text,
         cropTypeController.text,
         landAreaController.text,
         discriptionController.text,
@@ -57,7 +57,8 @@ class _MyHomePageState extends State<MyHomePage> {
         } else {
           _showSnackbar("Error Occurred!");
         }
-      });
+      }
+      );
 
       _showSnackbar("Submitting Request");
 
@@ -104,7 +105,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       decoration: InputDecoration(labelText: "Email"),
                     ),
                     TextFormField(
-                      controller: mobileNoController,
+                      controller: mobilenoController,
                       validator: (value) {
                         if (value.isEmpty) {
                           return "Enter Valid Phone Number";

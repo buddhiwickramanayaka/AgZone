@@ -16,7 +16,6 @@ class _AboutusState extends State<Aboutus> {
       ),
       body: Center(
         child: Column(
-          // mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             SizedBox(
               height: 50,
